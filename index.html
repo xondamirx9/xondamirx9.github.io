@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xondamir Najmiddinov - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Xondamir Najmiddinov</h1>
+            <p>Future Programmer & Designer</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I’m Xondamir Najmiddinov, an aspiring programmer and designer inspired by professionals. My goal is to build meaningful software and creative designs.</p>
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="images/my_photo.jpg" alt="My Photo" onclick="openModal('images/my_photo.jpg')">
+                    <p>My Photo</p>
+                </div>
+            </div>
+            <div id="modal" class="modal" onclick="closeModal()">
+                <span class="close">&times;</span>
+                <img id="modal-img" class="modal-content" alt="Full Size Image">
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>My Experience</h2>
+            <p>I volunteered at <strong>DataVolt</strong> during ICT WEEK, where I assisted in event management, technical support, and engaging with participants to showcase innovative technologies.</p>
+            <p>Key achievements:</p>
+            <ul>
+                <li>Helped organize and manage a successful exhibition booth.</li>
+                <li>Gained hands-on experience with industry-leading technology.</li>
+                <li>Networked with professionals in the tech industry.</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>English - B2</li>
+                <li>Russian - C1</li>
+                <li>Uzbek - Native</li>
+                <li>C++</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Event Management</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <ul>
+                <li><a href="mailto:nazmiddinovhondamir@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                <li><a href="https://github.com/XondamirX9/NajmiddinovXondamir.gethub.io" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/_najmiddinov_x/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Xondamir Najmiddinov. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
